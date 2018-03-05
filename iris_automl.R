@@ -20,3 +20,5 @@ auto_ml_models@leaderboard
 preds <- h2o.predict(auto_ml_models@leader, test)
 
 h2o.performance(auto_ml_models@leader, test)
+
+h2o.shutdown()

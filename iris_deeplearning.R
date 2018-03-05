@@ -18,3 +18,5 @@ summary(dl_model)
 preds <- h2o.predict(dl_model, test)
 
 h2o.performance(dl_model, test)
+
+h2o.shutdown()
