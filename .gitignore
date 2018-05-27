@@ -4,3 +4,6 @@
 .Ruserdata
 *.csv
 */*.csv
+iris_best_dl_model.mdl/*
+best_model/*
+baseline_model/*
